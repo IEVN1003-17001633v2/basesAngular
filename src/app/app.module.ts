@@ -9,6 +9,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductoFilterPipe } from './product/producto-filter.pipe';
 import { OperasBasComponent } from './formularios/operas-bas/operas-bas.component';
 import { Ejemplo1Component } from './formularios/ejemplo1/ejemplo1.component';
+import { BoletosCinepolisComponent } from './formularios/cinepolis/cinepolis.component';
+import { ResistenciaComponent } from './formularios/resistencia/resistencia.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,9 @@ import { Ejemplo1Component } from './formularios/ejemplo1/ejemplo1.component';
     ProductListComponent,
     ProductoFilterPipe,
     OperasBasComponent,
-    Ejemplo1Component
+    Ejemplo1Component,
+    BoletosCinepolisComponent,
+    ResistenciaComponent
   ],
   imports: [
     BrowserModule,
